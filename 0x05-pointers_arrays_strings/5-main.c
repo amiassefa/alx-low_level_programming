@@ -10,8 +10,8 @@ int main(void)
 {
     char s[10] = "My School";
 
-    printf("%s ", s);
+    printf("%s", s);
     rev_string(s);
-    printf("%s\n", s);
+    printf("\n%s\n", s);
     return (0);
 }
