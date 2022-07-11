@@ -6,13 +6,14 @@
  *
  * Return: Always 0.
  */
+
 int main(void)
 {
-    char s[] = "Holberton";
-
-    printf("%s", s);
+    char s[] = "My School";
     
+    printf("%s", s);
     rev_string(s);
     printf("\n%s\n", s);
+    
     return (0);
 }
