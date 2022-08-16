@@ -24,7 +24,9 @@ int main(void)
     add_nodeint(&head2, 402);
     add_nodeint(&head2, 1024);
     print_listint_safe(head2);
+    printf("%s","i m here now");
     node = find_listint_loop(head2);
+    printf("%s","i m here now");
     if (node != NULL)
     {
         printf("Loop starts at [%p] %d\n", (void *)node, node->n);
